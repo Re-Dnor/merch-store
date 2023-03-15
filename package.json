@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.tsx",
-  "homepage": "https://re-dnor.github.io/Merch-store/",
+  "homepage": "https://re-dnor.github.io/merch-store/",
   "scripts": {
     "start": "webpack serve --env port=3000",
     "build": "webpack --env mode=production",
