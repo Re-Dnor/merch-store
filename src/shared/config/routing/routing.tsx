@@ -10,32 +10,32 @@ const NotFoundPage = lazy(() => import("pages/not-found"));
 
 export const RoutingPaths = [
   {
-    path: "/Merch-store",
+    path: "/",
     element: <HomePage />,
     name: "home",
   },
   {
-    path: "/Merch-store/made-in-alfa",
+    path: "/made-in-alfa",
     element: <MadeInAlfaPage />,
     name: "madeInAlfa",
   },
   {
-    path: "/Merch-store/your-design",
+    path: "/your-design",
     element: <YourDesignPage />,
     name: "yourDesign",
   },
   {
-    path: "/Merch-store/contacts",
+    path: "/contacts",
     element: <ContactsPage />,
     name: "contacts",
   },
   {
-    path: "Merch-store//basket",
+    path: "/basket",
     element: <BasketPage />,
     name: "basket",
   },
   {
-    path: "/Merch-store/products/:id",
+    path: "/products/:id",
     element: <ProductPage />,
     name: "product",
   },
