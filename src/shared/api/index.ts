@@ -1,6 +1,7 @@
 import { DataType } from "./types";
 
-const BASE_URL = "http://qa-games.ru/astore";
+const BASE_URL =
+  "https://cors-anywhere.herokuapp.com/http://qa-games.ru/astore";
 const YOUR_DESIGN = "/your-design";
 const MADE_IN_ALFA = "/made-in-alfa";
 const PRODUCT = "/product/";
